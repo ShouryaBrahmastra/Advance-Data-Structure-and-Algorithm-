@@ -14,7 +14,7 @@ Algo Mergesort(low,high)
     merge(low,mid,high)
 
 Algo merge(low,mid,high)
-i=low,j=mi+1, k=low
+i=low,j=mid+1, k=low
 while(i<=mid && j<=high)
     if(a[i]<=a[j])
     { b[k]=a[i], i++}
