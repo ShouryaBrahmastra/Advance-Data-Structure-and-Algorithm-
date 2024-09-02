@@ -18,14 +18,10 @@ partition(arr,low,high)
     X=arr[low]
     do
     {
-        do
-        {
+        while(i<=high && data[i]<X)
             i++
-        }while(a[i]<X)
-        do
-        {
+        while(j>=low && data[j]>X)
             j--
-        }while(a[j]>X)
         if(i<j)
             swap(arr[i],arr[j])
     }while(low<high)
@@ -90,18 +86,18 @@ void QuickSort(int *data,int low,int high)
 
 int partition(int *data,int low,int high)
 {
-    int i=low,j=high,X=data[low];
+    int i=low+1,j=high,X=data[low];
 
     do
     {
-        do
+        while (i<=high && data[i]<X)
         {
             i++;
-        } while (data[i]<X);
-        do
+        }
+        while (j>=low && data[j]>X)
         {
             j--;
-        } while (data[j]>X);
+        }
         if(i<j)
         {
             swap(&data[i],&data[j]);
