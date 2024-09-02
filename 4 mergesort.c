@@ -17,10 +17,10 @@ Algo merge(low,mid,high)
 i=low,j=mid+1, k=low
 while(i<=mid && j<=high)
     if(a[i]<=a[j])
-    { b[k]=a[i], i++}
+    { b[k++]=a[i++],}
     else
-    { b[k]=a[j], j++}
-    k++
+    { b[k++]=a[j++],}
+    
 if(i>mid)
 for(p=j,p<=high,p++)
     { b[k]=a[p], k++}
