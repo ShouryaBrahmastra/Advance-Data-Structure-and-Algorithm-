@@ -1,0 +1,62 @@
+List of Experiments
+
+1. Write a program to perform all basic data structure operations (Insertion, deletion, searching, sorting) over array. All must be independent function and the user must have a choice to select what he wants. Must be done in cpp and user input will be dynamic.
+
+
+2. Design a code to perform given below operations in LinkedList.
+
+(a) Insertion and deletion at any position
+
+(b) Searching a given element and finds its location.
+
+(c) Count the number of nodes in the linked list.
+
+(d) Perform reverse operation in linked list.
+
+
+3. Write a program multiply two polynomials using LinkedList.
+
+
+4. Implement the code for enqueue and dequeue operations.
+
+
+5. Write a program for tree traversing
+
+(a) Inorder
+
+(b) Preorder
+
+(c) Postorder
+
+
+6. Write a program to insert an element in binary search tree.
+
+
+7. Write a program to sort the given elements with the sorting techniques given below.
+
+(a) Merge Sort
+
+(b) Quick sort
+
+(c) Heap sort
+
+
+8. Implement BFS and DFS traversing algorithms.
+
+
+9. Write the implementation of matrix chain multiplication.
+
+
+10. Write the code for LCS.
+
+
+11. Find Minimum Cost Spanning Tree of a given connected undirected graph using Prim's algorithm.
+
+
+https://www.inf.unibz.it/~zini/ML/slides/ml_2012_lab_08_solutions.pdf
+
+Define Machine Learning. Explain the difference between supervised and unsupervised learning.
+Explain the concept of a training set and a test set. Why is it important to have both?
+What is a Decision Tree? Explain its working with an example.
+Types of graph plots and their proposed diagram.
+
